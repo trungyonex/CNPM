@@ -1,0 +1,124 @@
+.mySlides {
+    display:none;
+    border-radius: 10px;
+    width:100% ; height :450px
+}
+
+
+
+.logo{
+    
+    border-radius: 3px;
+}
+.w3-left, 
+.w3-right, 
+.w3-badge {
+    cursor:pointer;
+}
+.w3-badge {
+    height:13px;
+    width:13px;
+    padding:0px;
+}
+.navbar{
+  background-image: linear-gradient(315deg,  #bbbbbb, #AAAAAA 74%);
+ 
+}
+.nav-item{
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 20px;
+    
+}
+#title{
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.dropdown-menu{
+    background-color: #c4c4bf;
+}
+.dropdown-item:hover{
+    background-color: #b6b5b5;
+}
+.detail-householder{
+    margin-left: 50px;
+}
+
+.householder-inf{
+    margin-top: 130px;
+    border: 3px solid rgb(161, 158, 158);
+    border-radius: 10px;
+    padding : 30px;
+    text-align: center;
+}
+#householder-img{
+    height :50px; 
+    border-radius: 50%; 
+    text-align: center;
+    margin-bottom: 5px;
+}
+.button {
+    background-color: #bec4be; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 180px;
+    font-size: 14px;
+    border-radius: 7px;
+    outline: none;
+}
+.button:hover{
+    background-color: #e8ecde;
+    outline: none;
+}
+
+.btnsdt{
+    background-color: #626464;
+}
+#pricing{
+    margin-left: 30px;
+}
+.house-info{
+    text-align: justify;
+}
+
+.houses{
+    width: 90%;
+    height: 80%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.houses:hover{
+    box-shadow: 2px 9px 15px 2px rgba(0, 0, 0, 0.2);
+}
+.dropdown{
+    margin-top: 20px;
+    margin-right: 0px;
+    display: inline;
+    color: white;
+    padding: 10px;
+    
+}
+.buttons-dropdown{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.btn{
+    color: none;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 15px;
+}
+.row{
+    margin-bottom: 10px;
+}
+body{
+    background-color: #d0d1c9f1;
+}

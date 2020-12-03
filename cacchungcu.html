@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chung cư</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--css file-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!--js file-->
+    <script src="main.js"></script>
+
+    </head>
+  <body>
+    
+    <nav class="navbar navbar-expand bg-primary navbar-dark p-0 sticky-top">
+      <ul class="navbar-nav w-100">
+          <span onclick="openNav()"><img class="logo" src="image/phongkhach.jpg" style="height: 70px;"></span>
+
+          <!--left nav-->
+          <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Căn hộ cho thuê</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Căn hộ bán</a>
+          </li>
+
+          <!--right nav-->
+          
+          <li class="nav-item ml-auto mr-3"> 
+            <a class="nav-link" href="#">
+                <label for="search"><i class="fa fa-search "></i> </label> 
+            </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="buttons-dropdown">
+
+          <div class="dropdown show">
+            <a class="btn  dropdown-toggle" style="color: rgb(129, 128, 128);" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Loại căn hộ chung cư
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Khu căn hộ cao cấp</a>
+              <a class="dropdown-item" href="#">Khu căn hộ tầm trung</a>
+              <a class="dropdown-item" href="#">Khu nghỉ dưỡng</a>
+            </div>
+          </div>
+          
+          <div class="dropdown show">
+            <a class="btn dropdown-toggle" style="color: rgb(129, 128, 128);" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Tầm giá
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Dưới 1 tỷ</a>
+              <a class="dropdown-item" href="#">2 tỷ - 3 tỷ</a>
+              <a class="dropdown-item" href="#">3 tỷ đến 5 tỷ</a>
+              <a class="dropdown-item" href="#">5 tỷ - 10 tỷ</a>
+              <a class="dropdown-item" href="#">Trên 10 tỷ</a>
+              
+
+            </div>
+          </div>
+
+          <div class="dropdown show">
+            <a class="btn dropdown-toggle" style="color: rgb(129, 128, 128);" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Tỉnh/ Thành
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Quận 1</a>
+              <a class="dropdown-item" href="#">Quận 2</a>
+              <a class="dropdown-item" href="#">Quận 3</a>
+              <a class="dropdown-item" href="#">Quận 4</a>
+              <a class="dropdown-item" href="#">Quận 7</a>
+              
+
+            </div>
+          </div>
+
+          <div class="dropdown show">
+            <a class="btn dropdown-toggle" style="color: rgb(129, 128, 128);" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Quận/Huyện
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Nhà Bè</a>
+              <a class="dropdown-item" href="#">Bình Chánh</a>
+              <a class="dropdown-item" href="#">Củ Chi</a>
+            </div>
+          </div>
+          <i class="fa fa-search" style="color: rgb(104, 103, 103); margin-left: 10px; cursor: pointer;"></i>
+        </div>
+      </div>
+      <div class="row">
+        
+        <h2 id="title">Căn hộ chung cư cao cấp ở TPHCM</h2>
+        <hr></hr>
+      </div>
+      <div class="row">
+        <div class=" col-lg-4" >
+          </br> 
+            <img class="houses" src="image/king-crown-infinity.jpg">
+            <h4>King Crown Infinity  </h4>
+        </div>
+
+        <div class=" col-lg-4" >
+          </br> 
+          <img class="houses" src="image/phongkhach.jpg">
+          <h4>Riverfront Residence </h4>  
+          
+        </div> 
+
+        <div class=" col-lg-4" >
+            </br> 
+            <img class="houses" src="image/aqua.jpg">
+            <h4>Căn hộ D - Aqua </h4>
+        </div>  
+      </div>
+      <div class="row">
+        <div class=" col-lg-4" style="max-width:400px">
+            </br> 
+            
+            <img class="houses" src="image/ldg.jpg">
+            <h4>LDG River</h4>
+        </div>
+
+        <div class=" col-lg-4" style="max-width:400px">
+          </br> 
+           
+           
+          <img class="houses" src="image/masterti.jpg">
+          <h4>Masteri Centre</h4>
+        </div> 
+        
+        <div class=" col-lg-4" style="max-width:400px">
+            </br> 
+            
+            <img class="houses" src="image/golden.jpg">
+            <h4>Golden Stella</h4>
+        </div>  
+      </div>
+      <div class="row">
+        <div class=" col-lg-4" style="max-width:400px">
+            </br> 
+            
+            <img class="houses" src="image/asahi.jpg">
+            <h4>Ashahi Tower</h4>
+        </div>
+
+        <div class=" col-lg-4" style="max-width:400px">
+          </br> 
+           
+           
+          <img class="houses" src="image/origami.jpg">
+          <h4>The Origami</h4>
+        </div> 
+        
+        <div class=" col-lg-4" style="max-width:400px">
+            </br> 
+            
+            <img class="houses" src="image/riverpark.jpg">
+            <h4>River Park</h4>
+        </div>  
+      </div>
+    </div>
+
+  </body>
+</html> 
