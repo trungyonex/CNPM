@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chung cư</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!--css file-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!--js file-->
+    <script src="main.js"></script>
+
+    </head>
+  <body>
+    
+    <nav class="navbar navbar-expand bg-primary navbar-dark p-0 sticky-top">
+      <ul class="navbar-nav w-100">
+          <span onclick="openNav()"><img class="logo" src="image/phongkhach.jpg" style="height: 70px;"></span>
+
+          <!--left nav-->
+          <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Căn hộ cho thuê</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Căn hộ bán</a>
+          </li>
+
+          <!--right nav-->
+          <li class="nav-item ml-auto mr-3"> 
+            <a class="nav-link" href="#">
+                <label for="search"><i class="fa fa-search "></i> </label> 
+            </a>
+          </li>
+      </ul>
+    </nav>
+    <div class="container-sm">
+        <div class="row">
+            <div class= "form col-lg-6">
+                <form class="formtext" method="POST">
+                    <div class="content">
+                        <div>
+                            <h1 id="assignmenclasswork">Đặt lịch xem phòng </h1></form></br>
+                            
+                            <div class="titleintruction">
+                                
+                                <i id="instructionicon" class="fas fa-align-left"></i> <input name="instruction" id="instruction" type = "text" placeholder="Họ và tên"></br></br>
+                                <i id="instructionicon" class="fas fa-align-left"></i> <input name="instruction" id="instruction" type = "text" placeholder="Email"></br></br>
+                                <i id="instructionicon" class="fas fa-align-left"></i> <input name="instruction" id="instruction" type = "text" placeholder="Số điện thoại"></br></br>
+                                <i id="instructionicon" class="far fa-calendar-alt"></i> <input name="dateStart" type="datetime-local" id="instruction"></br></br>
+                                <i id="instructionicon" class="fas fa-align-left"></i> <input name="instruction" id="instruction" style="height: 50px;" type = "textarea" placeholder="Yêu cầu"></br></br>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="btnsform-assign">
+                            
+                            <button class="btn ">Book</button>
+                            
+                            <a href="" class="btn ">Cancle</a>
+                        
+                        </div> 
+                    </div>   
+                </form>
+            </div>
+        </div>
+       
+      
+
+      
+      
+    </div>
+
+  </body>
+</html> 

@@ -122,3 +122,36 @@
 body{
     background-color: #d0d1c9f1;
 }
+.form{
+    margin-top: 30px;
+    margin-left: 280px;
+}
+#instructionicon{
+    margin-right: 8px;
+}
+#instruction{
+    width: 350px;
+    border-radius: 5px;
+}
+.formtext{
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 15px;
+    box-shadow: 2px 9px 15px 2px rgba(0, 0, 0, 0.2);
+}
+#assignmenclasswork{
+    margin-left: 40px;
+}
+.btn{
+    color: black;
+    margin-right: 10px;
+    background-color: #c4c4bf;
+    border-radius: 5px;
+}
+.btnsform-assign{
+    margin-left: 40px;
+}
+.content{
+    margin-left: 30px;
+    padding: 30px;
+}
